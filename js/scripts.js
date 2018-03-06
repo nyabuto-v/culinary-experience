@@ -1,59 +1,15 @@
-//Business logic
+var foodieContainer = document.getElementById("food");
+var foodie = document.getElementById("foodie");
 
-var selectedFile = document.getElementById('input').files[0];
-    <input type="file" id="input" multiple onchange="handleFiles(this.files)"></input>
-
-    //Dynamically adding a change listener
-var inputElement = document.getElementById("input");
-inputElement.addEventListener("change", handleFiles, false);
-function handleFiles() {
-    var fileList = this.files; /* now you can work with the file list */
-}
-
-// The function below initiates the tab to open a recipe
-
-$("button#search").click(function (event) {
-    //Make sure .nav-bar-menu is the name of the button for this to work
-    $(".nav-bar-menu").hide();
-
-    //this initiates the clearing part of the function
-
-    clearValues();
-    player2.newGame(); //in place of player 2  and newGame replace these with values that this is t execute in the html
-
-    //Here paste the tab names i.e. search box, find box, etc and include identifires e.g. class=(.), id=(#)
-    $("#").empty();
-    $("#").empty();
-    $("#").empty();
-    $(".").show();
-
+foodie.addEventListener("click", function() {
+    var ourRequest = new XMLHttpRequest();
+    ourRequest.open('GET', 'https://www.edamam.com/c35f9e5d');
+    ourRequest.onload = function () {
+        var ourData = JSON.parse(ourRequest.responseText);
+        renderHTML(ourData);
+    };
+    ourRequest.send();
 });
-
-// End of the recipe function
-
-//To hide elements in the HTML document
-
-function toggle_visibility(id) {
-    var e = document.getElementById(id);
-    if (e.style.display == 'block')
-        e.style.display = 'none';
-    else
-        e.style.display = 'block';
+function renderHTML(data) {
+    foodieContainer.insertAdjacentHTML('beforeend', 'testing 123');
 }
-
-//Used to fetch data frm the API
-
-fetch(url) // Call the fetch function passing the url of the API as a parameter
-    .then(function () {
-        // Your code for handling the data you get from the API
-    })
-    .catch(function () {
-        // This is where you run code if the server returns any errors
-    });
-
-//End of business logic
-
-//User Interface
-$(document).ready(function () {
-    $('#des').css('visibility', 'hidden');
-});
