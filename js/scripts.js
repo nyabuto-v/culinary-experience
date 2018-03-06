@@ -29,7 +29,7 @@ $("button#search").click(function (event) {
 
 });
 
-// End of ths recipe function
+// End of the recipe function
 
 //To hide elements in the HTML document
 
@@ -41,6 +41,17 @@ function toggle_visibility(id) {
         e.style.display = 'block';
 }
 
+//Used to fetch data frm the API
+
+fetch(url) // Call the fetch function passing the url of the API as a parameter
+    .then(function () {
+        // Your code for handling the data you get from the API
+    })
+    .catch(function () {
+        // This is where you run code if the server returns any errors
+    });
+
+//End of business logic
 
 //User Interface
 $(document).ready(function () {
