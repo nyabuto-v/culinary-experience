@@ -6,5 +6,6 @@ $.ajax({
         console.log(food.hits[0].recipe.label).innerHTML;
     });
     */
-
-window.alert ("contains nuts!")
+/*
+window.alert ("contains nuts!");
+*/
