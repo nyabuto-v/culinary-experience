@@ -1,0 +1,12 @@
+.back{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5) ), url('/home/abdi/culinary-experience/spaghetti-beef stew/img/spaghetti.jpg');
+  height: 40vh;
+  background-attachment: fixed;
+  color: white;
+}
+.container{
+height: 30vh;
+background-image: fixed
+font-size: 20;
+color:black;
+}
