@@ -20,3 +20,9 @@ body{
   width:990px;
   padding-left: 10px;
 }
+h2{
+  text-decoration: underline;
+}
+h3{
+  text-decoration: underline;
+}

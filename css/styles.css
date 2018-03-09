@@ -7,6 +7,7 @@
 body{
   background-image: url(../images/logo.jpg);
   background-attachment: fixed;
+
 }
 .float-left-area{
   margin-left: -20px;
@@ -61,4 +62,7 @@ h3{
   text-align: center;
   opacity: 0.725;
   background-color: white;
+}
+.jumbotron h1, b {
+  font-family: cursive;
 }
