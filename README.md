@@ -38,6 +38,6 @@ This [Link]() will direct you to the live site on GitHub where a repository of o
 * [Peter Nyabuto](https://github.com/nyabuto-v/)
 * [Zakariya Abdi](https://github.com/abdizakaria/)
 ---
-Copyright and Licence are under [**MIT**]()
+Copyright and Licence are under [**MIT**](https://github.com/nyabuto-v/culinary-experience/blob/development/LICENSE)
  
  ©CULINARY EXPERIENCE | 2018 
