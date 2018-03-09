@@ -34,9 +34,9 @@ This [Link]() will direct you to the live site on GitHub where a repository of o
 ---
 ##  Enjoy the websit and feel free to explore our repositories on Git Hub;
 * [Ramza Reseni](https://github.com/ramza007/)
-* [Mark Murimi](https://github.com//)
+* [Mark Murimi](https://github.com/markmurimi/)
 * [Peter Nyabuto](https://github.com/nyabuto-v/)
-* [Zakariya Abdi](https://github.com//)
+* [Zakariya Abdi](https://github.com/abdizakaria/)
 ---
 Copyright and Licence are under [**MIT**]()
  
