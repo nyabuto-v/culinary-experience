@@ -7,11 +7,11 @@ Designed by ***Ramza Reseni, Mark Murimi, Peter Nyabuto, Zakariya Abdi***, 9th M
 A web application that allows its users to search for specific foods both locally and internatonal foods.
 
 ---
-This [Link]() will direct you to the live site on GitHub where a repository of our work is.
+This [Link](http://nyabuto-v.github.io/culinary-experience/) will direct you to the live site on GitHub where a repository of our work is.
 
 ---
 
-#### Languages used to make the Ping Pong page are;
+#### Languages used to make the page are;
 * HTML 5
 * Java Script
 * Bootstrap css 
